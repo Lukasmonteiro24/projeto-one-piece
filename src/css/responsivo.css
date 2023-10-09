@@ -1,0 +1,47 @@
+@media (max-width: 769px) {
+   main::after {
+
+    background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 65%) no-repeat;
+width: 100vw;
+   }
+
+main .personagem .imagem {
+    
+   height: 85%; 
+}
+
+.conteudo {
+
+    justify-content: flex-end;
+    left: 0;
+    top: -20%;
+    max-width: 100vw;
+    padding: 30px;
+ }
+
+ .conteudo .nome-personagem {
+
+    font-size: 30px ;
+ }
+
+ .conteudo .descricao {
+
+    max-width: 200px;
+
+ }
+
+ .botoes  {
+
+    flex-direction: row;
+    align-items: end;
+    width: 100%;
+    padding: 30px;
+ }
+
+ .botoes .botao img  {
+
+    max-width: 60px;
+ }
+   
+}
